@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+header{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    /* position: sticky;
+    top: 0; */
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+
+nav{
+    display: flex;
+align-items: center;
+flex: 1;
+}
+.nav-item{
+    margin: 10px;
+    font-size:medium;
+}
+/* .nav-item:hover{
+     font-size:large;
+    transition: .2s;
+} */
+.active{
+    font-weight: 600;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo-item {
+    margin: 5px;
+    color: white;
+    font-weight: 500;
+}
+h1 {
+    color: white;
+    font-weight: 500;
+}
+span {
+    font-weight: 100;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+.profile-item{
+    margin: 10px;
+}
+#search{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    border-color: white;
+}
+.container{
+    width: 100%;
+    height: 30px;
+    background-color: #343434;
+    border-top: whitesmoke;
+}
+section{
+    display: flex;
+}
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1b1b1b;
+    padding: 15px;
+    height: 100vh;
+    width: 20vw;
+    padding-right:0 ;
+    border-right: 1px solid #CDCDCD;
+}
+.sidemenu-heading{
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: 100;
+}
+h1{
+    color: black;
+}
+.html_{
+    cursor: pointer;
+    font-size: 18px;
+}
+ol{
+    list-style: none;
+    padding: 0;
+}
+ol li {
+    display: list-item;
+    margin-bottom: 15px;
+    /* letter-spacing: .5px; */
+    font-size: 18px;
+}
+li a{
+    font-size: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}.content{
+    width: 80vw;
+    height: 100vh;
+}
+.html_ h4{
+    font-size:24px ;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
