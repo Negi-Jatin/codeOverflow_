@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@1,300&family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 body{
-    background-image: linear-gradient(to top,rgb(0,0,0,.7),rgb(0,0,0,0.7)),url(../images/pexels-pixabay-163185.jpg); 
-    background-size: 100% auto;
+    background-image: linear-gradient(to top,rgb(0,0,0,.5),rgb(0,0,0,0.5)),url(../images/pexels-olia-danilevich-4974915.jpg); 
+    background-size: 100% 109vh;
     background-repeat: no-repeat;
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -35,10 +35,7 @@ flex: 1;
     font-size:medium
    
 }
-/* .nav-item:hover{
-    font-size:18px;
-    transition: .2s;
-} */
+
 .active{
     font-weight:600;
 }
@@ -74,9 +71,7 @@ span {
 .profile-item{
     margin: 10px;
 }
-.fa-user{
-    color: #fff;
-}
+
 .pic{
     color: black;
     margin-right: 5px;
@@ -90,86 +85,22 @@ span {
     padding: 5px;
     color: black;
 }
-section{
-    display: flex;
-    padding: 100px 30px;
-    justify-content: space-around;
-}
-.icon{
-    display: flex;
-    align-items: center;
-}
-footer{
-    background-color: #1b1b1b;
-    padding: 30px;
-    display: flex;
-    color: #CDCDCD;
-    justify-content: space-between;
-}
-.fa-envelope,.fa-location-dot{
-    color: #CDCDCD;
-}
-.block h2{
-    /* margin: 0px 15px; */
-    margin-left: 15px;
-    font-size: 26px;
-    font-weight: 300;
-}
-.map{
-    border-radius:10px;
-}
-.icon{
-    display: flex;
-    align-items: center;
-    color: #CDCDCD;
-}
-.icon i{
-    margin: 15px;
-    font-size: 28px;
-    color: #CDCDCD;
-    cursor:pointer;
-}
-.info i{
-    font-size: 20px;
-}
-.block p{
-    margin-left: 15px;
-    cursor: pointer;
-}footer{
-    background-color: #1b1b1b;
-    padding: 30px;
-    display: flex;
-    color: #CDCDCD;
-    justify-content: space-between;
-}
-.fa-envelope,.fa-location-dot{
-    color: #CDCDCD;
-}
-.block h2{
-    /* margin: 0px 15px; */
-    margin-left: 15px;
-    font-size: 26px;
-    font-weight: 300;
+.fa-user{
+    color: #fff;
 }
 
-.icon{
+.login{
+    width: 100%;
+    height: 92vh;
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
-    color: #CDCDCD;
+    justify-content: center;
+
 }
-.icon i{
-    margin: 15px;
-    font-size: 28px;
-    color: #CDCDCD;
-    cursor:pointer;
-}
-.info i{
-    font-size: 20px;
-}
-.block p{
-    margin-left: 15px;
-    cursor: pointer;
-}
-section h1{
-    font-size: 50px;
+.form{
+    width: 30vw;
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+
 }

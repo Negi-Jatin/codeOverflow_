@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@1,300&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 body{
     margin: 0;
     color: whitesmoke;
@@ -5,6 +7,7 @@ body{
     background-color: #1b1b1b;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
+    scrollbar-width: none;
 }
 header{
     background-color: #1b1b1b;
@@ -95,6 +98,8 @@ section{
     background-color: #1b1b1b;
     padding: 15px;
     height: 100vh;
+    overflow-y:scroll;
+    scrollbar-width: none;
     width: 20vw;
     padding-right:0 ;
     border-right: 1px solid #CDCDCD;
@@ -115,17 +120,17 @@ ol{
     list-style: none;
     padding: 0;
 }
-ol li {
+ol li{
     display: list-item;
-    margin-bottom: 15px;
-    /* letter-spacing: .5px; */
-    font-size: 18px;
+    margin-bottom: 25px;
+    letter-spacing: .5px;
 }
 li a{
     font-size: 18px;
     letter-spacing: 0;
     text-transform: none;
-}.content{
+}
+.content{
     width: 80vw;
     height: 100vh;
 }
@@ -133,4 +138,43 @@ li a{
     font-size:24px ;
     font-weight: 400;
     letter-spacing: 1px;
+}
+footer{
+    background-color: #1b1b1b;
+    padding: 30px;
+    display: flex;
+    color: #CDCDCD;
+    justify-content: space-between;
+    border-top: 1px solid #CDCDCD;
+}
+.fa-envelope,.fa-location-dot{
+    color: #CDCDCD;
+}
+.block h2{
+    /* margin: 0px 15px; */
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+}
+.icon i{
+    margin: 15px;
+    font-size: 28px;
+    color: #CDCDCD;
+    cursor:pointer;
+}
+.info i{
+    font-size: 20px;
+}
+.block p{
+    margin-left: 15px;
+    cursor: pointer;
+}
+iframe{
+    margin: 0;
 }
