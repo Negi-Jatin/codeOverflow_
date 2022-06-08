@@ -4,6 +4,7 @@
     <style>
         body{
             margin: 0px;
+            background-color:white;
         }
         nav{
             background-color:rgb(8, 201, 8);
