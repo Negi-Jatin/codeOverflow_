@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques_js7</title>
+    <style>
+        body{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    Enter a Positive Number: 
+    <input type="number"  id="num">
+    <button onclick="multiple()">Check</button>
+    <p id="result"></p>
+    <script>
+        function multiple(){
+        var x=parseInt(document.getElementById("num").value)
+        var y=0;
+        if(x%3==0){
+            document.getElementById("result").innerHTML=x+" is multiple of 3.";
+            y=1;
+        }
+        if(x%7==0){
+            document.getElementById("result").innerHTML=x+" is multiple of 7.";
+
+            y=1;
+        }
+        if(y==0){
+            document.getElementById("result").innerHTML="Neither multiple of 3 nor 7.";
+        }
+    }
+    </script>
+</body>
+</html>

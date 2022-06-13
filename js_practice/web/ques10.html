@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques_js10</title>
+    <style>
+        body{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>Number 1:
+    <input type="number"  id="num1"><br><br>
+    Number 2:
+    <input type="number"  id="num2"><br><br>
+    Number 3:
+    <input type="number" id="num3"><br><br>
+    <button onclick="greatestNum()">Click</button>
+    <p id="result"></p>
+    <script>
+        function greatestNum(){
+        var x=parseInt(document.getElementById("num1").value);
+        var y=parseInt(document.getElementById("num2").value);
+        var z=parseInt(document.getElementById("num3").value);
+        
+        if(x>y){
+            if(x>z){
+                document.getElementById("result").innerText=x+" is the greatest number";
+            }
+            else{
+                document.getElementById("result").innerText=z+" is the greatest number";
+            }
+        }
+        else{
+            if(y>z){
+                document.getElementById("result").innerText=y+" is the greatest number";
+            }
+            else{
+                document.getElementById("result").innerText=z+" is the greatest number";
+            }
+        }
+    }
+    </script>
+</body>
+</html>
