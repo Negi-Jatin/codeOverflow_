@@ -32,7 +32,7 @@ flex: 1;
 }
 .nav-item{
     margin: 10px;
-    font-size:medium;
+    font-size:16px;
 }
 /* .nav-item:hover{
      font-size:large;
@@ -48,10 +48,10 @@ flex: 1;
     flex: 1;
 }
 .logo{
-    width: 40px;
+    /* width: 40px;
     height: 40px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 50%; */
     cursor: pointer;
 }
 .logo-item {
@@ -75,6 +75,13 @@ span {
 }
 .profile-item{
     margin: 10px;
+}
+.pic{
+    color: white;
+    margin-right: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
 }
 #search{
     border-radius: 5px;
@@ -108,6 +115,7 @@ section{
     letter-spacing: 1.5px;
     font-size: 24px;
     font-weight: 100;
+    margin: 0;
 }
 h1{
     color: black;
@@ -126,7 +134,7 @@ ol li{
     letter-spacing: .5px;
 }
 li a{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0;
     text-transform: none;
 }

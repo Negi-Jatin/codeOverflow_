@@ -31,7 +31,11 @@ a{
     width: 25%;
     padding: 20px;
     position: sticky;
-    top: 150px;
+    top: 0;
+}
+.menu-inline{
+    position: sticky;
+    top: 50px;
 }
 .menu-inline a{
     font-size: 16px;
@@ -63,9 +67,27 @@ a{
     font-weight: 500;
 }
 .main-content p{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 /* .main-content i{
     float: right;
 } */
+p{
+    text-align: justify;
+}
+.start a{
+    font-size: 35px;
+    border: 2px solid rgb(19, 191, 19);
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb(19, 191, 19) ;
+}
+.start a:hover{
+    background-color: rgb(29, 228, 29);
+    border: 2px solid rgb(29, 228, 29);
+}
+.start{
+    display: flex;
+    justify-content: center;
+}
