@@ -13,15 +13,35 @@
         <i class="fa-solid fa-pen-to-square"></i>
         <div id="one">
         <h1>Web Server</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea, eos sed deserunt eius fugiat similique dolore quo doloremque excepturi dolores laboriosam debitis, cupiditate sequi qui numquam quia voluptatibus architecto est possimus unde! Ab, ipsam veniam fugit ex animi a beatae sunt voluptatibus odit omnis deserunt nobis, accusamus corporis cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam perferendis, ut nemo explicabo amet illum quo totam sed sapiente labore eius repellendus quibusdam eaque reprehenderit eligendi praesentium minus? Officia optio sint culpa, eum illo adipisci repellendus neque, debitis reprehenderit molestiae reiciendis eligendi esse sit ducimus distinctio. Eius amet ut impedit?</p>
+        <p>The term web server can refer to hardware or software, or both of them working together.<br><br>
+
+            1. On the hardware side, a web server is a computer that stores web server software and a website's component files (for example, HTML documents, images, CSS stylesheets, and JavaScript files). A web server connects to the Internet and supports physical data interchange with other devices connected to the web. <br><br>
+            2. On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP (the protocol your browser uses to view webpages). An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.<br><br>
+            At the most basic level, whenever a browser needs a file that is hosted on a web server, the browser requests the file via HTTP. When the request reaches the correct (hardware) web server, the (software) HTTP server accepts the request, finds the requested document, and sends it back to the browser, also through HTTP. (If the server doesn't find the requested document, it returns a 404 response instead.) <br>
+            <br>
+            <img src="./article_img/web_server.png" alt="" style="border-radius: 5px;"><br><br>
+            Basic representation of a client/server connection through HTTP
+            To publish a website, you need either a static or a dynamic web server. <br><br>
+            
+            <b>A static web server</b>, or stack, consists of a computer (hardware) with an HTTP server (software). We call it "static" because the server sends its hosted files as-is to your browser.<br><br>
+            
+           <b> A dynamic web server</b> consists of a static web server plus extra software, most commonly an application server and a database. We call it "dynamic" because the application server updates the hosted files before sending content to your browser via the HTTP server.<br><br>
+            
+            For example, to produce the final webpages you see in the browser, the application server might fill an HTML template with content from a database. Sites like MDN or Wikipedia have thousands of webpages. Typically, these kinds of sites are composed of only a few HTML templates and a giant database, rather than thousands of static HTML documents. This setup makes it easier to maintain and deliver the content.</p>
     </div>
     <div id="two">
         <h1>Web Client & Web Browser</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium, repellat odio laudantium exercitationem modi aliquid impedit quam ea deserunt libero delectus corrupti placeat. Deserunt maiores, cum velit voluptates dignissimos, repellat itaque ullam quibusdam corrupti expedita doloremque ad recusandae vitae esse odit aut, provident impedit sequi est! Distinctio laborum commodi sint ea molestiae quas culpa, ipsa, veniam a fuga dolore cum earum quam ipsum magni debitis nesciunt voluptatum. Rerum ipsa odit esse. Iste ullam non odit excepturi optio eligendi ipsum, ducimus, ipsam, molestiae sequi animi repellendus alias doloremque delectus sunt cumque expedita pariatur et rem ab ex provident recusandae. Fugit hic provident porro eum saepe est doloremque commodi autem. Ab illo perferendis quo minus officiis distinctio animi odio nobis consequatur similique quis magni rerum, dolorum, necessitatibus expedita possimus reprehenderit nesciunt ratione nihil fugiat eius veritatis, perspiciatis quas? Asperiores, provident rerum hic qui itaque doloribus rem beatae fugit iusto, id cupiditate!</p>
+        <p>A web browser (also referred to as an Internet browser or simply a browser) is application software for accessing the World Wide Web or a local website. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device. <br><br>
+
+            A web browser is not the same thing as a search engine, though the two are often confused. A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.</p>
     </div>
     <div id="three">
         <h1>Communication: Browser and Server</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sunt dolore! Ut blanditiis, voluptatum explicabo iure possimus sint expedita, impedit facere, dolore adipisci voluptatibus error inventore. Dicta ullam, mollitia ut exercitationem rerum delectus corporis deserunt. Porro incidunt illum obcaecati natus quidem delectus sit, cum exercitationem at laboriosam vel saepe? Aut adipisci, laboriosam, necessitatibus aperiam reiciendis eius, repudiandae atque quasi libero nostrum repellendus porro. Excepturi nesciunt similique ducimus harum impedit explicabo rerum numquam dolore deserunt accusamus, ipsam possimus alias recusandae maiores, vitae debitis, cupiditate quam accusantium corrupti. Corporis fugiat blanditiis assumenda eum quas dolores alias. Obcaecati similique velit ab voluptatum atque?
+        <p>LWeb browsers and web servers function together as a client-server system. In computer networking, client-server is a standard method for designing applications where data is kept in central locations (server computers) and efficiently shared with any number of other computers (the clients) on request. All web browsers function as clients that request information from websites (servers). <br><br>
+
+            Numerous web browser clients can request data from the same website. Requests can happen at all different times or simultaneously. Client-server systems conceptually call for all requests to the same site to be handled by one server. In practice, however, because the volume of requests to web servers can sometimes grow very large, web servers are often built as a distributed pool of server computers. <br><br>
+            
+            For websites popular in different countries around the world, this webserver pool is geographically distributed to help improve the response time to browsers. If the server is closer to the requesting device, the time it takes to deliver the content is faster than if the server were further away.
         </p>
     </div><br>
     <div id="four">
