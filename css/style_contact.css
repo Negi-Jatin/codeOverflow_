@@ -115,9 +115,7 @@ footer{
     font-size: 26px;
     font-weight: 300;
 }
-.map{
-    border-radius:10px;
-}
+
 .icon{
     display: flex;
     align-items: center;
@@ -129,6 +127,7 @@ footer{
     color: #CDCDCD;
     cursor:pointer;
 }
+
 .info i{
     font-size: 20px;
 }
@@ -154,7 +153,6 @@ footer{
 
 .icon{
     display: flex;
-    align-items: center;
     color: #CDCDCD;
 }
 .icon i{
@@ -172,4 +170,22 @@ footer{
 }
 section h1{
     font-size: 50px;
+}
+.per_info{
+    font-size: 24px;
+}
+input[type=text],input[type=email]{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.message h1{
+    margin: 0;
+    margin-bottom: 30px;
 }
